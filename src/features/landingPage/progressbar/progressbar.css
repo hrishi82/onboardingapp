@@ -1,0 +1,29 @@
+.main-progressbar-container{
+    margin: 6rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-circle{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 5rem;
+    border: 1px solid var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-circle-active{
+    background-color: var(--primary-clr);
+    color: white;
+}
+
+.progress-line{
+    width: 2.4rem;
+    height: 0.15rem;
+    background-color: var(--light-grey)
+}
+.progress-line-active{
+    background-color: var(--primary-clr)
+}

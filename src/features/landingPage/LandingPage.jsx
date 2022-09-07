@@ -1,10 +1,18 @@
-import { Outlet, NavLink } from "react-router-dom"
+import { Outlet, NavLink, useNavigate } from "react-router-dom"
 import "./main.css"
 import { ProgressBar } from "./progressbar/ProgressBar"
 import logo from "../../assets/images/logo.png"
 import "./main.css"
+import { useEffect } from "react"
 
 export const LandingPage = () =>{
+
+    const navigate = useNavigate()
+
+    useEffect(()=>{
+        navigate('/')    
+    }, [])
+    
     return(
         <div className="main-container">
             <div className="landingpg-logo-text-container">

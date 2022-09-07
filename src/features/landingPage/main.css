@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin-bottom: 6rem;
 }
 
 .landingpg-logo-text-container{
@@ -24,4 +25,11 @@
     font-weight: 600;
     padding: 0;
     margin: 0 0 0 0.5rem;
+}
+
+
+@media screen and (max-width: 600px){
+    .landingpg-logo-text-container{
+        margin-top: 3.5rem;
+    }
 }

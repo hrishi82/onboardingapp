@@ -108,7 +108,7 @@
 
 
 
-/* Workspace type */
+/* Workspace type page*/
 
 .workspace-type-selection-container{
     display: flex;
@@ -163,14 +163,49 @@
 
 
 
-
-
-
-
-/* Form complete */
+/* Form complete page */
 
 .form-complete-favicon-container{
     font-size: 5rem;
     margin: 1rem 0 3rem 0;
     color: var(--primary-clr);
+}
+
+
+/* Misc */
+.H-spacing-right-reg{
+    margin-right: 1.8rem;
+  }
+
+
+/* Media queries */
+
+@media screen and (max-width: 600px){
+
+    .main-form-container{
+        margin-top: 3rem;
+    }
+
+    .form-input-container, .form-btn-container{
+        width: 90vw;
+    }
+
+    .workspace-type-selection-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        width: 90vw;
+    }
+
+    .workspace-type-option-container{
+        width: 100%;
+        margin-bottom: 1.5rem
+    }
+
+    .H-spacing-right-reg{
+        margin-right: 0;
+    }
+
 }
